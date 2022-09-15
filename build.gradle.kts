@@ -52,3 +52,16 @@ kotlin {
         val nativeTest by getting
     }
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("maven"){
+                from(components["java"])
+                groupId ="me.mambo.kmp"
+                artifactId = "encoder"
+                version = "1.0.0"
+            }
+        }
+    }
+}

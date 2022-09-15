@@ -5,4 +5,4 @@ depends=kotlin
 ir_version=1.0.0
 jsOutputName=kmplib-js-ir
 metadata_version=1.4.1
-unique_name=me.mambobryan\:kmplib
+unique_name=me.mambo.kmp.encoder\:kmplib

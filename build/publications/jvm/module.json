@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmplib/1.0.0/kmplib-1.0.0.module",
+    "group": "me.mambo.kmp.encoder",
+    "module": "kmplib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmplib-jvm-1.0.0.jar",
+          "url": "kmplib-jvm-1.0.0.jar",
+          "size": 2813,
+          "sha512": "e83e1c65565472690dbe0c7c5d1baf9f86220ba44ef31031d2f224c19705835c4db7266729e2bcae3fca1b90f01851582222a4fa5061a30cf7142d9c2f6fefb0",
+          "sha256": "82d6f3ed645ede7a2e778ee934e4a15d8742c7cf8db66a40a12815850df7eb42",
+          "sha1": "1499f86c7f6117bf7f2acd89fc302e6fa07655bb",
+          "md5": "e15d1f2cd338af215ab931eb5cb25b7f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmplib-jvm-1.0.0.jar",
+          "url": "kmplib-jvm-1.0.0.jar",
+          "size": 2813,
+          "sha512": "e83e1c65565472690dbe0c7c5d1baf9f86220ba44ef31031d2f224c19705835c4db7266729e2bcae3fca1b90f01851582222a4fa5061a30cf7142d9c2f6fefb0",
+          "sha256": "82d6f3ed645ede7a2e778ee934e4a15d8742c7cf8db66a40a12815850df7eb42",
+          "sha1": "1499f86c7f6117bf7f2acd89fc302e6fa07655bb",
+          "md5": "e15d1f2cd338af215ab931eb5cb25b7f"
+        }
+      ]
+    }
+  ]
+}

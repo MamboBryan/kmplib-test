@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmplib/1.0.0/kmplib-1.0.0.module",
+    "group": "me.mambo.kmp.encoder",
+    "module": "kmplib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmplib.klib",
+          "url": "kmplib-native-1.0.0.klib",
+          "size": 5872,
+          "sha512": "2ec8f47bccf7519c07b2f5bc3ebe5e6b9fc87ee962ae16529a0086778b0b828723a962dfd84352a77ff344dcbcb9588b7aec2d7e5e45d94cc4a9e1fa2ce70dc5",
+          "sha256": "6d05f35d9c12ce7b97691e04e49188f3aa2ba49a4fe32abf52f24f70b8bcbfcb",
+          "sha1": "703b6c579935648c00206217866682a8d1dd5655",
+          "md5": "2894a9fcf0234997b4109c46fa80f7fd"
+        }
+      ]
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmplib-native-1.0.0-metadata.jar",
+          "url": "kmplib-native-1.0.0-metadata.jar",
+          "size": 261,
+          "sha512": "21e9beefaafb34f7a47dfe5b6387f34f0ad499f24804e214ddaae182db3d411dc557737feab6c9798ca8f8bc73453c3c86b31384ccb03d0cbaa6de03d62467d9",
+          "sha256": "01c28cee75a1009d1ef465769444bb3360c3af38776212c5d927653725c9be8d",
+          "sha1": "452d7049462e0b3e3e0e8ec218fe283e63737b1b",
+          "md5": "1fe041edd3de743cff9e217e6f193f22"
+        }
+      ]
+    }
+  ]
+}
