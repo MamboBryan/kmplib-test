@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.mamo.test.MamboEncoderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-15T12:19:52" hostname="MamboBryans-MacBook-Pro.local" time="0.002">
+  <properties/>
+  <testcase name="testEncodeToString[jsLegacy, browser, ChromeHeadless105.0.5195.102, MacOS10.15.7]" classname="me.mamo.test.MamboEncoderTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

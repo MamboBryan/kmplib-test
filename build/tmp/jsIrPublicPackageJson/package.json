@@ -1,0 +1,11 @@
+{
+  "name": "kmplib-js-ir",
+  "version": "1.0.0",
+  "main": "kmplib-js-ir.js",
+  "types": "kmplib-js-ir.d.ts",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

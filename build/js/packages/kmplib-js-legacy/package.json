@@ -1,0 +1,10 @@
+{
+  "name": "kmplib-js-legacy",
+  "version": "1.0.0",
+  "main": "kotlin/kmplib-js-legacy.js",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}
